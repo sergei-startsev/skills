@@ -12,15 +12,7 @@
       "strict": false,
       "skills": [
         "./skills/create-announcement"
-      ],
-      "mcpServers": {
-        "github": {
-          "url": "https://api.githubcopilot.com/mcp/",
-          "headers": {
-            "Authorization": "Bearer ${GITHUB_PAT}"
-          }
-        }
-      }
+      ]
     }
   ]
 }
