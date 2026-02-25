@@ -6,8 +6,8 @@
   "plugins": [
     {
       "name": "create-announcement",
-      "description": "Generate professional MS Teams channel announcements from pull request changes using the GitHub MCP server.",
-      "version": "1.0.0",
+      "description": "Creates announcements for IM platforms (MS Teams, Slack) based on Pull Request(s)",
+      "version": "1.0.1",
       "source": "./",
       "strict": false,
       "skills": [

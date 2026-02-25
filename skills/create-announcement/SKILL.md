@@ -1,7 +1,7 @@
 ---
 name: create-announcement
-description: This skill should be used when the user asks to "create a Teams announcement", "write a Teams message for a PR", "announce PR changes", "generate a release announcement for Teams", "summarize PR for Teams", "draft a Teams channel post", or needs to turn GitHub pull request changes into a formatted Microsoft Teams channel message. Supports single-PR and multi-PR release announcements.
-version: 0.1.0
+description: This skill should be used when the user asks to "create an announcement", "write a Teams message for a PR", "write a Slack message for a PR", "announce PR changes", "generate a release announcement", "summarize PR for Teams", "summarize PR for Slack", "draft a channel post", or needs to turn GitHub pull request changes into a formatted announcement for IM platforms (MS Teams, Slack). Supports single-PR and multi-PR release announcements.
+version: 1.0.1
 ---
 
 # MS Teams Announcement from Pull Requests
