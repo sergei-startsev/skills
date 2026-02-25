@@ -1,0 +1,26 @@
+{
+  "name": "create-announcement",
+  "owner": {
+    "name": "Siarhei Startsau"
+  },
+  "plugins": [
+    {
+      "name": "create-announcement",
+      "description": "Generate professional MS Teams channel announcements from pull request changes using the GitHub MCP server.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/create-announcement"
+      ],
+      "mcpServers": {
+        "github": {
+          "url": "https://api.githubcopilot.com/mcp/",
+          "headers": {
+            "Authorization": "Bearer ${GITHUB_PAT}"
+          }
+        }
+      }
+    }
+  ]
+}
