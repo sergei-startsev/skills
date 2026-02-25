@@ -15,7 +15,7 @@ A collection of custom [agent skills](http://agentskills.io/).
 Creates announcements for IM platforms (MS Teams, Slack) based on Pull Request(s).
 
 ```
-/plugin install create-announcement@sergei-startsev-skills
+/plugin install mgmt@sergei-startsev-skills
 ```
 
 ## License

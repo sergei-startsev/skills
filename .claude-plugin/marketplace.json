@@ -5,9 +5,9 @@
   },
   "plugins": [
     {
-      "name": "create-announcement",
+      "name": "mgmt",
       "description": "Creates announcements for IM platforms (MS Teams, Slack) based on Pull Request(s)",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "source": "./",
       "strict": false,
       "skills": [
